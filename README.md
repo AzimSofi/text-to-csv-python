@@ -1,2 +1,2 @@
 # text-to-csv-python
- Look at everyline, only takes the first word(seperated by a space)
+ Look at every line, only takes the first word(seperated by a space)
