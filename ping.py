@@ -2,7 +2,7 @@ import re
 import pandas as pd
 
 def process_ping_data(input_txt_path, output_excel_path):
-    with open(input_txt_path, 'r', encoding='utf-16') as f:
+    with open(input_txt_path, 'r') as f:
         data = f.read()
         
     time_values = re.findall(r'time=(\d+)ms', data)
